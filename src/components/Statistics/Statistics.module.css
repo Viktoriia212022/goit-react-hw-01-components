@@ -1,0 +1,32 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 5);
+  text-align: center;
+  padding: 10px;
+}
+.label,
+.percentage {
+  font-size: 24px;
+  margin-top: 5px;
+  color: #4c1130;
+}
+.statlist {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  width: 100%;
+  padding-left: 0;
+  margin-top: 0;
+  border: 5px inset #1e90ff;
+  padding: 3px;
+  margin-bottom: 5px;
+}
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  color: #999999;
+  margin-bottom: 0;
+}

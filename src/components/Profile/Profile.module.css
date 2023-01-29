@@ -1,0 +1,64 @@
+.profile {
+  background-color: rgb(242, 226, 220);
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.name {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 76px;
+  margin: 0 auto;
+}
+
+.tag,
+.location {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.17;
+  margin: 0 auto;
+}
+
+.stats {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  /* width: calc(100% / 3); */
+  /* justify-content: space-between; */
+}
+.items {
+  display: flex;
+}
+
+.label,
+.quantity {
+  list-style: none;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.17;
+  margin: 0 auto;
+}
+.label {
+  margin-right: 10px;
+}

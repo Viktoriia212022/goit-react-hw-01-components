@@ -1,0 +1,25 @@
+.friend_list {
+  width: 300px;
+  list-style: none;
+  margin: auto;
+  padding-left: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%),
+    0px 2px 2px rgb(0 0 0 / 12%);
+}
+.status {
+  /* background-color: green; */
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
